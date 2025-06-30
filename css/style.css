@@ -1,0 +1,16 @@
+.center_container {
+    display: flex;
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+.block1 {
+    width: 700px;
+}
+
+.imground {
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
