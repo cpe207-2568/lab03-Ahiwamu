@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="center_container">
+    <div class="d-flex justify-content-center gap-5 mt-4 ">
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html"
@@ -39,16 +39,18 @@
       </ul>
     </div>
 
-    <div class="center_container block1 mt-5">
-      <img class="imground" src="./img/me.JPG" width="200"/>
-      <div>
-        <h1 style="margin-left: 1.5rem; margin-top: 2rem">Weeraphat Boonju</h1>
-        <br />
-        <p style="margin-left: 1.5rem">
-          Hello, My name is Weeraphat Boonju. You can call me Nice. I am
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto mt-1" style="max-width: 700;"
+    >
+      <img class="imground me-4" src="./img/me.JPG" width="200"/>
+      <div class="d-none d-sm-block">
+        <div class="mb-3"><h1>Weeraphat Boonju</h1></div>
+        <div class="text-muted">
+          Hello, My name is Weeraphat Boonju. You can call me Nice. 
+          <br>I am
           Computer Engineering student in Chiangmai University. Nice to meet
           you!!!
-        </p>
+        </div>
       </div>
     </div>
 
@@ -56,46 +58,39 @@
       <h2>Skills</h2>
     </div>
 
-    <div class="row center_container">
-      <div class="col-sm-auto">
-        <div class="card center_container h-100" style="width: 18rem">
-          <img src="./img/code.png" class="card-img-top" />
-          <div class="card-body">
-            <h5 class="card-title">Programming</h5>
-            <p class="card-text">I have experience coding C/C++ and Python.</p>
-          </div>
+    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+      <div class="card h-100" style="width: 18rem">
+        <img src="./img/code.png" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title">Programming</h5>
+          <p class="card-text">I have experience coding C/C++ and Python.</p>
         </div>
       </div>
 
-      <div class="col-sm-auto">
-        <div class="card center_container h-100" style="width: 18rem">
-          <img src="./img/self-learning.png" class="card-img-top" />
-          <div class="card-body">
-            <h5 class="card-title">Self-learning</h5>
-            <p class="card-text">
-              I can learn new things by myself. I read or watch videos to
-              understand new topics. I enjoy learning and try to improve every
-              day.
-            </p>
-          </div>
+      <div class="card h-100" style="width: 18rem">
+        <img src="./img/self-learning.png" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title">Self-learning</h5>
+          <p class="card-text">
+            I can learn new things by myself. I read or watch videos to
+            understand new topics. I enjoy learning and try to improve every
+            day.
+          </p>
         </div>
       </div>
 
-      <div class="col-sm-auto">
-        <div class="card center_container h-100" style="width: 18rem">
-          <img src="./img/time_management.jpg" class="card-img-top" />
-          <div class="card-body">
-            <h5 class="card-title">Time Management</h5>
-            <p class="card-text">
-              I can manage my time and do the most important tasks first. I can
-              set goals and plan my time well between study, work, and rest.
-            </p>
-          </div>
+      <div class="card h-100" style="width: 18rem">
+        <img src="./img/time_management.jpg" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title">Time Management</h5>
+          <p class="card-text">
+            I can manage my time and do the most important tasks first. I can
+            set goals and plan my time well between study, work, and rest.
+          </p>
         </div>
       </div>
     </div>
-    <p class="text-center text-muted mt-5 mb-4">
-      © 2025 Weeraphat Boonju
-    </p>
+
+    <p class="text-center text-muted mt-5 mb-4">© 2025 Weeraphat Boonju</p>
   </body>
 </html>
